@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homes"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"></item>
+
+    <item android:id="@+id/cart"
+        android:title="Keranjang"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"></item>
+    <item android:id="@+id/notif"
+        android:title="Notifikasi"
+        android:icon="@drawable/bell"></item>
+    <item android:id="@+id/mail"
+        android:title="Pesan"
+        android:icon="@drawable/ic_mail_black_24dp"></item>
+    <item android:id="@+id/profile"
+        android:title="Akun"
+        android:icon="@drawable/ic_account_circle_black_24dp"></item>
+</menu>

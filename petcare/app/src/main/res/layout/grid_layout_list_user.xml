@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="195dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true"
+    android:foregroundGravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/cardview">
+        <ImageView
+            android:id="@+id/prod_image"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="5dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_launcher_background"></ImageView>
+        <TextView
+            android:id="@+id/prod_name"
+            android:layout_below="@+id/prod_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16dp"
+            android:textColor="#020202"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/prod_prices"
+            android:layout_below="@+id/prod_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#F44336"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+           ></TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

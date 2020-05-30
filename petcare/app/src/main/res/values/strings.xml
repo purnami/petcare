@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">crudProject</string>
+    <string name="jasa_prompt">Pilih Jasa Pengiriman</string>
+    <string-array name="send">
+        <item>JNE Rp13.000</item>
+        <item>JNT Rp11.000</item>
+        <item>Post Indonesia Rp8.000</item>
+    </string-array>
+    <string-array name="bank">
+        <item>Transfer Bank BNI</item>
+        <item>Transfer Bank BCA</item>
+        <item>Transfer Bank BRI</item>
+        <item>Transfer Bank Mandiri</item>
+    </string-array>
+    <string-array name="duration">
+        <item>Reguler (2-4 hari) Rp9.000</item>
+        <item>Reguler (5-9 hari) Rp6.000</item>
+        <item>Ekonomi (2-3 hari) Rp11.000</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crudproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Petcare"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditProfileActivity"
+            android:label="Ubah Akun"></activity>
+        <activity android:name=".AllPaymentActivity"
+            android:label="Semua Transaksi"/>
+        <activity android:name=".ViewImagePayActivity" />
+        <activity android:name=".ProductSendingListActivity"
+            android:label="Product Sending List"
+            android:parentActivityName=".AdminActivity"/>
+        <activity android:name=".MailActivity"
+            android:label="Pesan Masuk"/>
+        <activity android:name=".InvoiceActivity"
+            android:label="Invoice"/>
+        <activity android:name=".UploadPaymentActivity"
+            android:label="Upload Bukti Pembayaran"/>
+        <activity android:name=".StatusPaymentActivity"
+            android:label="Menunggu Pembayaran"/>
+        <activity android:name=".AfterOrderActivity" />
+        <activity android:name=".DetailOrderActivity"
+            android:label="Detail Order List"
+            android:parentActivityName=".AdminActivity"/>
+        <activity
+            android:name=".OrderListActivity"
+            android:label="Order List"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".BasketListActivity"
+            android:label="Basket List"
+            android:parentActivityName=".AdminActivity" />
+        <activity android:name=".BuyActivity"
+            android:label="Proses Pemesanan"/>
+        <activity android:name=".DetailProductActivity"
+            android:label="Detail Barang"/>
+        <activity android:name=".BasketActivity"
+            android:label="Keranjang Barang"/>
+        <activity android:name=".ProfileActivity"
+            android:label="Akun Anda"/>
+        <activity android:name=".ProductUpdateDeleteActivity" />
+        <activity android:name=".AddProductActivity"
+            android:label="Add New Product"/>
+        <activity
+            android:name=".ProductActivity"
+            android:label="Product List"
+            android:parentActivityName=".AdminActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".LogInActivity"
+            android:label="Log In"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SignUpActivity"
+            android:label="Sign Up"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TabelUserActivity"
+            android:label="User List"
+            android:parentActivityName=".AdminActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

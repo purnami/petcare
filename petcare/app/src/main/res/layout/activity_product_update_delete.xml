@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductUpdateDeleteActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pname"
+                android:hint="Product Name"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pprices"
+                android:hint="Prices"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pstock"
+                android:hint="Stock"></EditText>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/pimage"></ImageView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Select Image"
+                    android:textAllCaps="false"
+                    android:id="@+id/pbtnimage"></Button>
+            </LinearLayout>
+            <Button
+                android:id="@+id/pbtnupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="edit"></Button>
+            <Button
+                android:id="@+id/pbtndelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delete"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
